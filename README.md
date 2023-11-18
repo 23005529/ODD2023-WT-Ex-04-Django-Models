@@ -36,7 +36,7 @@ Setup the url path for the templates using urls.py
 
 In settings.py file add the app created.
 
-### Step 3: Now do the migrations process to initiate and save the models
+### Step 3: Now do the migrations process to initiate and save the models 
 
 Python mange.py makemigrations
 Python manage.py migrate
