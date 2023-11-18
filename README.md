@@ -19,20 +19,19 @@ Python manage.py startapp myapp
 
 ### Step 2: Create a user_profile models in model.py
 
-![Alt text](<../model.py.png>)
+![Alt text](model.png)
 
 Add the models in the admin interface using the code in admin.py
 
-![Alt text](<../admin.py.png>)
-
+![Alt text](admin.png)
 
 Write the function based view to render the data from the models to the template in view.py
 
-![Alt text](<../views.py.png>)
+![Alt text](views.png)
 
 Setup the url path for the templates using urls.py
 
-![Alt text](<../urls.py.png>)
+![Alt text](urls.png)
 
 In settings.py file add the app created.
 
@@ -42,7 +41,7 @@ Python mange.py makemigrations
 Python manage.py migrate
 Create a template as user_profiles.html
 
-![Alt text](<../user.html.png>)
+![Alt text](users.png)
 
 ### step 4: Run the program using the command
 
